@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "Patrick Udoh",
+      "email": "udohpertrick@gmail.com",
+      "password": "12345678",
+      "id": 1
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "MacDonald",
+      "contact": "+13434567",
+      "address": "5 Queens Road, Uttah City",
+      "img": "https://images.unsplash.com/photo-1615282720169-46f05893ce8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1793&q=80",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Pizza Hut",
+      "contact": "+12345678",
+      "address": "123 Main Street, Pizza City",
+      "img": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+    },
+    {
+      "name": "Burger King",
+      "contact": "+98765432",
+      "address": "456 King Street, Burgerland",
+      "img": "https://plus.unsplash.com/premium_photo-1667682209935-b6c87cced668?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Subway",
+      "contact": "+98765432",
+      "address": "789 Subway Avenue, Sandwich Town",
+      "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1773&q=80"
+    },
+    {
+      "id": 5,
+      "name": "KFC",
+      "contact": "+54321678",
+      "address": "432 Fried Chicken Lane, Greaseville",
+      "img": "https://images.unsplash.com/photo-1626082929543-5bab0f090c42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+    },
+    {
+      "name": "Starbucks",
+      "contact": "+98712345",
+      "address": "1234 Main Street, Virgina",
+      "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80 ",
+      "id": 6
+    },
+    {
+      "name": "Vegetable Restaurant",
+      "contact": "+2315678992",
+      "address": "1234 Main Street, Virgina",
+      "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+      "id": 7
+    },
+    {
+      "name": "Chinese Restaurants",
+      "contact": "+2215678992",
+      "address": "3, Wung Wong street, HongKong",
+      "img": "https://plus.unsplash.com/premium_photo-1664299332779-5cadf16015a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+      "id": 8
+    }
+  ]
+}
