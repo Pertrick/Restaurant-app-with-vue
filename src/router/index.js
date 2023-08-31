@@ -7,7 +7,7 @@ import EditRestaurantView from '@/pages/EditRestaurantView'
 
 const routes = [
     {
-         path: '/home', 
+         path: '/', 
          name:'HomeView',
          component: HomeView,
          meta: { requiresAuth: true }, 

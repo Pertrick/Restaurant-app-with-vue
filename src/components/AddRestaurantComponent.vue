@@ -63,12 +63,12 @@ export default {
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Name</label>
-                    <input type="email" class="form-control" v-model="formData.name" id="inputName">
+                    <input type="email" placeholder="Chinese Restaurant" class="form-control" v-model="formData.name" id="inputName">
                     <small class="text-danger">{{ errors.name }}</small>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Contact</label>
-                    <input type="text" class="form-control"  v-model="formData.contact" id="inputContact">
+                    <input type="text" placeholder="+123-456-789" class="form-control"  v-model="formData.contact" id="inputContact">
                     <small class="text-danger">{{ errors.contact }}</small>
                 </div>
             </div>

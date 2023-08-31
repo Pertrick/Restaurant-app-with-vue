@@ -1,7 +1,8 @@
 <template>
   <div>
     <div>
-      <input type="email" v-model="formData.email" placeholder="Enter Email">
+      <small class="text-danger mt-4">{{ error}}</small>
+      <input type="email" v-model="formData.email"  placeholder="Enter Email">
       <small class="text-danger">{{ errors.email }}</small>
     </div>
     <div>
@@ -28,7 +29,8 @@ export default {
       errors: {
         email: '',
         password: ''
-      }
+      },
+      error:''
 
     }
   },
@@ -50,6 +52,8 @@ export default {
           if (result.status == 200 && result.data.length !== 0) {
             localStorage.setItem("user-info", JSON.stringify(result.data[0]))
             this.$router.push({ "name": "HomeView" })
+          }else{
+            this.error = "Incorrect password or username combination.";
           }
 
         } catch (error) {
@@ -57,8 +61,15 @@ export default {
         }
       }
 
+    },
+  },
+  watch:{
+      'formData.email': function(newVal){
+        if(newVal !==''){
+          this.errors ={};
+        }
+      }
     }
-  }
 
 }
 </script>

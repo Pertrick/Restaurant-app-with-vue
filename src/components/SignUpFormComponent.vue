@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>
+      <small class="text-danger mt-4">{{ error}}</small>
       <input type="name" v-model="formData.name" placeholder="Enter Name">
       <small class="text-danger">{{ errors.name }}</small>
     </div>
@@ -34,7 +35,8 @@ export default {
         name: '',
         password: '',
         email: ''
-      }
+      },
+      error:''
     }
   },
   methods: {
@@ -59,6 +61,8 @@ export default {
           if (result.status == 201) {
             localStorage.setItem("user-info", JSON.stringify(result.data))
             this.$router.push({ "name": "HomeView" })
+          }else{
+            this.error = 'An error occurred! signup failed.'
           }
 
 
